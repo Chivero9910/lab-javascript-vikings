@@ -9,7 +9,6 @@ class Soldier {
         return this.strength
     }
     receiveDamage(damage) {
-        // should remove the received damage from the health property
         this.health -= damage
 
     }
